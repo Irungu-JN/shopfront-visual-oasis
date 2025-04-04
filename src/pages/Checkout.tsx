@@ -8,7 +8,7 @@ import { Separator } from "@/components/ui/separator";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-import { toast } from "@/components/ui/sonner";
+import { toast } from "@/lib/toast";
 import { Check, CreditCard, Landmark } from "lucide-react";
 
 type CheckoutStep = "shipping" | "payment" | "review";
