@@ -345,8 +345,8 @@ const SellerInfoSection: React.FC = () => {
         </div>
         
         <div className="flex justify-center">
-          <Button size="lg" className="px-8">
-            Become a Seller
+          <Button size="lg" className="px-8" asChild>
+            <Link to="/seller">Become a Seller</Link>
           </Button>
         </div>
       </div>

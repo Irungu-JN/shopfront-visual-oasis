@@ -14,13 +14,13 @@ const Footer: React.FC = () => {
               Your premium shopping destination for quality products and exceptional service.
             </p>
             <div className="flex items-center gap-4">
-              <Link to="#" className="text-white hover:text-primary">
+              <Link to="/social/instagram" className="text-white hover:text-primary">
                 <Instagram size={20} />
               </Link>
-              <Link to="#" className="text-white hover:text-primary">
+              <Link to="/social/facebook" className="text-white hover:text-primary">
                 <Facebook size={20} />
               </Link>
-              <Link to="#" className="text-white hover:text-primary">
+              <Link to="/social/twitter" className="text-white hover:text-primary">
                 <Twitter size={20} />
               </Link>
             </div>
@@ -31,17 +31,17 @@ const Footer: React.FC = () => {
             <ul className="space-y-2 text-slate-300">
               <li><Link to="/products" className="hover:text-primary">All Products</Link></li>
               <li><Link to="/categories" className="hover:text-primary">Categories</Link></li>
-              <li><Link to="#" className="hover:text-primary">New Arrivals</Link></li>
-              <li><Link to="#" className="hover:text-primary">Featured</Link></li>
+              <li><Link to="/new-arrivals" className="hover:text-primary">New Arrivals</Link></li>
+              <li><Link to="/featured" className="hover:text-primary">Featured</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-semibold text-lg mb-4">Customer Service</h4>
             <ul className="space-y-2 text-slate-300">
-              <li><Link to="#" className="hover:text-primary">Contact Us</Link></li>
-              <li><Link to="#" className="hover:text-primary">FAQ</Link></li>
-              <li><Link to="#" className="hover:text-primary">Shipping & Returns</Link></li>
+              <li><Link to="/contact" className="hover:text-primary">Contact Us</Link></li>
+              <li><Link to="/faq" className="hover:text-primary">FAQ</Link></li>
+              <li><Link to="/shipping-returns" className="hover:text-primary">Shipping & Returns</Link></li>
               <li><Link to="/orders" className="hover:text-primary">Order Tracking</Link></li>
             </ul>
           </div>
